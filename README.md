@@ -35,7 +35,7 @@ terraform/
 ## How to Deploy
 
 ```bash
-git clone https://github.com/<your-username>/biznesash-terraform.git
+git clone https://github.com/KassenkazyAlima/Terraform_biznesASH.git
 cd biznesash-terraform
 terraform init
 terraform validate
@@ -46,7 +46,7 @@ terraform apply
 Ensure `terraform.tfvars` includes:
 
 ```hcl
-db_password = "yourStrongPassword!"
+db_password = "password"
 key_name    = "your-ec2-key"
 ```
 
